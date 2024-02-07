@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -26,6 +27,7 @@ main section {
 
 body {
     background-color: #fdf7fa;
+    font-family: Lato, Helvetica, sans-serif;
 }
 header {
     background-color: #a8dcd9;
@@ -64,4 +66,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: "IM Fell French Canon", Helvetica, sans-serif;
 }
