@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: white;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 45px;
+    color: #1F628E;
+}
+nav a:hover {
+    background-color: black;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 13;
+    grid-template-rows: 8;
+}
+.hand-writing {
+    width: 100%;
+    grid-column: 2/4;
+    grid-row: 3/6;
+}
+.outside-fun {
+    width: 100%;
+    grid-column: 6/8;
+    grid-row: 3/6;
+}
+.reading-time {
+    width: 100%;
+    grid-column: 10/12;
+    grid-row: 3/6;
+}
+main section {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #1F628E;
+    font-family: Coming Soon, Josefin Sans, Helvetica;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#hero-img {
+    width: 75%;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+footer {
+    background-color: white;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
