@@ -79,29 +79,51 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.page-2-grid {
-    display: grid;
-    grid-template-columns: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto;
-    grid-template-rows: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto;
-}
-.mrs-crystal {
-    width: 100%;
-    grid-column: 2/4;
-    grid-row: 3/6;
-}
-.our-classroom {
-    width: 100%;
-    grid-column: 6/8;
-    grid-row: 3/6;
-}
-.games {
-    width: 100%;
-    grid-column: 10/12;
-    grid-row: 3/6;
-}
 .page-2-title {
     text-align: center;
+    grid-column: 2/12;
 }
+#schedule {
+  align-content: center;
+  grid-column: 3/12;
+  grid-row: 9;
+}
+.our-schedule {
+  width: 100%;
+  text-align: center;
+  grid-row: 8;
+  grid-column: 2/12;
+}
+.page-2-grid {
+  display: grid;
+  grid-template-columns: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto;
+  grid-template-rows: auto, auto, auto, auto, auto, auto, auto, auto, auto;
+}
+.mrs-crystal {
+  width: 100%;
+  grid-column: 2/4;
+  grid-row: 3/6;
+}
+.our-classroom {
+  width: 100%;
+  grid-column: 6/8;
+  grid-row: 3/6;
+}
+.games {
+  width: 100%;
+  grid-column: 10/12;
+  grid-row: 3/6;
+}
+main section {
+  text-align: center;
+}
+.about {
+  text-align: center;
+  grid-row: 7;
+  grid-column: 2/12;
+}
+
+
 * {
     box-sizing: border-box;
   }
