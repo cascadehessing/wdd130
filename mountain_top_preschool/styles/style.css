@@ -35,8 +35,8 @@ nav a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto;
-    grid-template-rows: auto, auto, auto, auto, auto, auto, auto, auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
 }
 .hand-writing {
     width: 100%;
@@ -96,8 +96,8 @@ footer {
 }
 .page-2-grid {
   display: grid;
-  grid-template-columns: auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto, auto;
-  grid-template-rows: auto, auto, auto, auto, auto, auto, auto, auto, auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
 }
 .mrs-crystal {
   width: 100%;
